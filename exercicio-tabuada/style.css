@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 50px;
+    padding: 20px;
+}
+.tabuada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+input{
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+button{
+    border-radius: 15px;
+    padding: 10px;
+}
+.resultado{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
