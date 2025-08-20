@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+</head>
+<body>
+    <h1>Exercicio 4</h1>
+    <p>Pede dois valores ao usuário e verifica qual deles é o maior e exibe uma sequência do maior para o menor no console</p>
+    <script>
+        let valor1 = prompt("Digite um número: ")
+        let valor2 = prompt("Digite um segundo número: ")
+
+
+        if(valor1 < valor2){
+            while(valor2 >= valor1){
+                console.log(valor2)
+                valor2--
+            }
+        }else if(valor2 < valor1) {
+            while(valor1 >= valor2){
+                console.log(valor1)
+                valor1--
+            }
+        }else{}
+    </script>
+</body>
+</html>
